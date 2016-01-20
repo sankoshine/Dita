@@ -1,0 +1,9 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\bin\Debug\Dita.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\bin\Debug\Dita.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\Dita.Paper.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\Dita.Properties.Resources.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\Dita.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\Dita.pdb
