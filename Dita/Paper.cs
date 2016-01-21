@@ -44,6 +44,11 @@ namespace Dita
             }
         }
 
+        private void Paper_Load(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }
