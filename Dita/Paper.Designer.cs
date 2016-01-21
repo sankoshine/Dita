@@ -42,7 +42,7 @@
             // 
             // import
             // 
-            this.import.Location = new System.Drawing.Point(200, 66);
+            this.import.Location = new System.Drawing.Point(23, 159);
             this.import.Name = "import";
             this.import.Size = new System.Drawing.Size(75, 23);
             this.import.TabIndex = 2;
@@ -53,7 +53,7 @@
             // tip
             // 
             this.tip.AutoSize = true;
-            this.tip.Location = new System.Drawing.Point(376, 77);
+            this.tip.Location = new System.Drawing.Point(119, 17);
             this.tip.Name = "tip";
             this.tip.Size = new System.Drawing.Size(89, 12);
             this.tip.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             // directory
             // 
-            this.directory.Location = new System.Drawing.Point(87, 66);
+            this.directory.Location = new System.Drawing.Point(23, 12);
             this.directory.Name = "directory";
             this.directory.Size = new System.Drawing.Size(75, 23);
             this.directory.TabIndex = 0;
@@ -75,7 +75,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(232, 127);
+            this.textBox1.Location = new System.Drawing.Point(167, 45);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 3;
@@ -83,7 +83,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(87, 136);
+            this.label1.Location = new System.Drawing.Point(22, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 12);
             this.label1.TabIndex = 4;
@@ -92,7 +92,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(87, 184);
+            this.label2.Location = new System.Drawing.Point(22, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 12);
             this.label2.TabIndex = 6;
@@ -100,7 +100,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(232, 184);
+            this.textBox2.Location = new System.Drawing.Point(167, 85);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 21);
             this.textBox2.TabIndex = 5;
@@ -108,7 +108,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(87, 243);
+            this.label3.Location = new System.Drawing.Point(22, 125);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(113, 12);
             this.label3.TabIndex = 8;
@@ -116,7 +116,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(232, 240);
+            this.textBox3.Location = new System.Drawing.Point(167, 122);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 21);
             this.textBox3.TabIndex = 7;
@@ -125,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(729, 455);
+            this.ClientSize = new System.Drawing.Size(282, 202);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label2);
@@ -136,7 +136,8 @@
             this.Controls.Add(this.tip);
             this.Controls.Add(this.import);
             this.Name = "Paper";
-            this.Text = "Form1";
+            this.Text = "Paper";
+            this.Load += new System.EventHandler(this.Paper_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
