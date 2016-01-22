@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using Excel = Microsoft.Office.Interop.Excel;
-using Word = Microsoft.Office.Interop.Word;
 using System.Windows.Forms;
 
 namespace Dita
@@ -48,10 +47,19 @@ namespace Dita
 
             for(int i = 1; i <= rowCount; i++)
             {
+                if (xlRange.Cells[i, 1].Value2 == null)
+                {
+                    break;
+                }
                 inner = new List<string>();
                 for(int j = 1; j <= colCount; j++)
                 {
-                    inner.Add(xlRange.Cells[i,j].Value2.ToString());
+                    var value = xlRange.Cells[i,j].Value2;
+                    if (value == null)
+                    {
+                        break;
+                    }
+                    inner.Add(value.ToString());
                 }
                 list.Add(inner);
             }

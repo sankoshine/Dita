@@ -49,6 +49,14 @@ namespace Dita
 
         }
 
+        private void check_Click(object sender, EventArgs e)
+        {
+            File.Delete(root + @"\gen\score.csv");
+            BaseOperation.CollectAnswers(root + @"\gen");
+            System.Diagnostics.Process.Start("explorer.exe", root + @"\gen");
+            this.Close();
+        }
+
 
     }
 }

@@ -28,7 +28,7 @@ namespace Dita
 
         public string generate(int count)
         {
-            var totalCount = questions.Capacity;
+            var totalCount = questions.Count;
             var random = BaseOperation.randomSelect(count, totalCount);
             string filepath1 = Paper.root + @"\gen\answer.csv";
             string filepath2 = Paper.root + @"\gen\paper.txt";
@@ -60,7 +60,7 @@ namespace Dita
 
         public string generate2(int count)
         {
-            var totalCount = questions.Capacity;
+            var totalCount = questions.Count;
             var random = BaseOperation.randomSelect(count, totalCount);
             string filepath2 = Paper.root + @"\gen\paper.txt";
             string filepath3 = Paper.root + @"\gen\paperWithAnswer.txt";

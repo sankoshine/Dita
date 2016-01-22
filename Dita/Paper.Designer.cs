@@ -38,6 +38,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.check = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // import
@@ -55,9 +56,9 @@
             this.tip.AutoSize = true;
             this.tip.Location = new System.Drawing.Point(119, 17);
             this.tip.Name = "tip";
-            this.tip.Size = new System.Drawing.Size(89, 12);
+            this.tip.Size = new System.Drawing.Size(77, 12);
             this.tip.TabIndex = 1;
-            this.tip.Text = "Paper by sanko";
+            this.tip.Text = "Dita - SanKo";
             // 
             // folderBrowserDialog1
             // 
@@ -121,11 +122,22 @@
             this.textBox3.Size = new System.Drawing.Size(100, 21);
             this.textBox3.TabIndex = 7;
             // 
+            // check
+            // 
+            this.check.Location = new System.Drawing.Point(121, 159);
+            this.check.Name = "check";
+            this.check.Size = new System.Drawing.Size(75, 23);
+            this.check.TabIndex = 9;
+            this.check.Text = "批改试卷";
+            this.check.UseVisualStyleBackColor = true;
+            this.check.Click += new System.EventHandler(this.check_Click);
+            // 
             // Paper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(282, 202);
+            this.Controls.Add(this.check);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label2);
@@ -136,7 +148,7 @@
             this.Controls.Add(this.tip);
             this.Controls.Add(this.import);
             this.Name = "Paper";
-            this.Text = "Paper";
+            this.Text = "Dita";
             this.Load += new System.EventHandler(this.Paper_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -155,6 +167,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button check;
     }
 }
 
