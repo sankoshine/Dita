@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dita", "Dita\Dita.csproj", "{27F9302E-763B-4F8E-87B5-96E00EB8D881}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DitaSetup", "DitaSetup\DitaSetup.vdproj", "{E5C14FD7-24F8-4EEE-9AE1-B479AFF64D08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,8 @@ Global
 		{27F9302E-763B-4F8E-87B5-96E00EB8D881}.Debug|x86.Build.0 = Debug|x86
 		{27F9302E-763B-4F8E-87B5-96E00EB8D881}.Release|x86.ActiveCfg = Release|x86
 		{27F9302E-763B-4F8E-87B5-96E00EB8D881}.Release|x86.Build.0 = Release|x86
+		{E5C14FD7-24F8-4EEE-9AE1-B479AFF64D08}.Debug|x86.ActiveCfg = Debug
+		{E5C14FD7-24F8-4EEE-9AE1-B479AFF64D08}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

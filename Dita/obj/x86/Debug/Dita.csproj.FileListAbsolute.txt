@@ -6,7 +6,6 @@ C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\D
 C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\Dita.pdb
 C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\bin\Debug\Dita.exe.manifest
 C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\bin\Debug\Dita.application
-C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\Dita.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\Dita.csproj.GenerateResource.Cache
 C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\Dita.exe.manifest
 C:\Users\Administrator\documents\visual studio 2010\Projects\Dita\Dita\obj\x86\Debug\Dita.application
